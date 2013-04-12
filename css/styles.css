@@ -8,3 +8,32 @@ h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFF;	
 }
+
+linkFormat {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFF;
+	font-style: italic;
+}
+
+a {
+font-weight: bold;
+color: #FFF;
+}
+
+a:link {
+color: #FFF;
+}
+a:visited {
+color: #989FAF;
+}
+a:hover {
+color: #989FAF;
+}
+a:active {
+color: #989FAF;
+
+}
+
+
+
+Read more: How to Style a Link with CSS | eHow.com http://www.ehow.com/how_2080242_style-link-css.html#ixzz2QDrCD8R9
