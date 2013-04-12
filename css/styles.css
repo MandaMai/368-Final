@@ -2,12 +2,21 @@ body {
 	background: #2f333c;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFF;
+	font-size:12px;
 }
 
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFF;	
+	font-size:18px;	
 }
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #FFF;	
+	font-size:14px;	
+}
+
 
 linkFormat {
 	font-family: 'Josefin Sans', sans-serif;
@@ -28,6 +37,7 @@ color: #989FAF;
 }
 a:hover {
 color: #989FAF;
+font-size:14px;
 }
 a:active {
 color: #989FAF;
