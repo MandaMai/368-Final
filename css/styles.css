@@ -1,34 +1,42 @@
 body {
-	background: #2f333c;
+	background: url(../img/background.png);
 	font-family: 'Josefin Sans', sans-serif;
 	color: #FFF;
 	font-size:18px;
 }
 
 h1 {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;	
-	font-size:36px;	
+	font-weight: 900;	
+	font-size:40px;
+	margin-bottom: .1em;
+	border-bottom: 1.5px solid #fff;
+}
+
+.top {
+	margin-top: 2.55em;
+	text-align: right;
+	border-bottom: 1.5px solid #fff;
+}
+
+.noTop {
+	margin-top: 0px;	
 }
 
 h2 {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;	
+	font-weight: 700;
 	font-size:24px;	
 }
 
 p {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;	
 	font-size:20px;	
 	font-style:italic;
 }
 
-linkFormat {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #FFF;
-	font-style: italic;
+
+.right {
+	float: right;
 }
+
 
 a {
 font-weight: bold;
@@ -49,7 +57,9 @@ a:active {
 color: #989FAF;
 
 }
-
+ .header {
+	 
+ }
 
 
 Read more: How to Style a Link with CSS | eHow.com http://www.ehow.com/how_2080242_style-link-css.html#ixzz2QDrCD8R9
