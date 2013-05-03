@@ -40,6 +40,7 @@ ul {
 	list-style-image: url(../img/bolt2.png)	
 }
 
+
 .right {
 	float: right;
 }
@@ -62,11 +63,8 @@ font-size:24px;
 }
 a:active {
 color: #989FAF;
-
 }
- .header {
-	 
- }
+
 
 
 Read more: How to Style a Link with CSS | eHow.com http://www.ehow.com/how_2080242_style-link-css.html#ixzz2QDrCD8R9
