@@ -15,9 +15,14 @@ h1 {
 }
 
 .top {
-	margin-top: 2.55em;
+	margin-top: 3.25em;
 	text-align: right;
 	border-bottom: 1.5px solid #fff;
+}
+
+.bottom {
+	text-align: right;
+	text-decoration: blink;	
 }
 
 .noTop {
@@ -40,6 +45,12 @@ ul {
 	list-style-image: url(../img/bolt2.png)	
 }
 
+.music {
+	width: 300;
+	height: 90;
+	loop: false;
+	autostart: false;
+}
 
 .right {
 	float: right;
