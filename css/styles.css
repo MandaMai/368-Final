@@ -1,34 +1,118 @@
 body {
 	background: url(../img/background.png);
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', 'Yanone Kaffeesatz', sans-serif;
 	color: #FFF;
 	font-size:18px;
+	max-width: 960px;
+
 }
 
-h1 {
-	font-weight: 900;	
-	font-size:40px;
-	text-transform: capitalize;
-	font-variant: small-caps;
-	margin-bottom: .1em;
-	border-bottom: 1.5px solid #fff;
+.all {
+	max-width: 960px;
+	border: 2px solid #fff;	
 }
 
-.top {
-	margin-top: 3.25em;
-	text-align: right;
-	border-bottom: 1.5px solid #fff;
+.topSocial{
+font-size: 44px;
+margin-top: -4.75%;
+float: right;
+display: block;
+margin-right: -22%;
 }
 
-.email {
-	text-align: right;
-	text-decoration: blink;	
+
+.rightNav{
+	float: right;
+	display: block;
+	background: url(../img/sub.png);
+	color: #3d3d3d;	
+	font-weight: 700;
 }
 
-.noTop {
-	margin-top: 0px;
-	  
+.rightNav li{
+	width: 10%;
+	display: block;
+	list-style: none;
+	padding:20% 15%;
+	font-size: 1.125em;
 }
+
+.rightNav li:last-child{
+	
+}
+
+
+
+.rightNav li a{
+	color: inherit;
+	text-decoration: none;
+	width: 50%;
+	text-align: center;
+	margin-left: -130%;
+
+}
+
+#linkText{
+	background: url(../img/logo.png) no-repeat;	
+	display: block;
+	width: 960px;
+	height: 124px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+#linkTextFb{
+	background: url(../img/facebook.png) no-repeat;	
+	display: block;
+	width: 100%px;
+	height: 100%px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+#linkTextT{
+	background: url(../img/twitter.png) no-repeat;	
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+section {
+background: url(../img/sub.png);
+color: #3d3d3d;
+width: 100%;	
+font-weight: 700;
+display: block;
+clear: right;
+margin-top: 5%;
+}
+
+section li{
+	width: 13%;
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	padding: 1% 0;
+	font-size: 1.125em;
+}
+
+
+
+
+section li a{
+	color: inherit;
+	text-decoration: none;
+	width: 40%;
+
+}
+
+
+	
 
 h2 {
 	font-weight: 700;
@@ -37,7 +121,7 @@ h2 {
 
 p {
 	font-size:20px;	
-	font-style:italic;
+
 }
 
 ul {
@@ -52,29 +136,7 @@ ul {
 	autostart: false;
 }
 
-.right {
-	float: right;
-}
 
-
-a {
-font-weight: bold;
-color: #FFF;
-}
-
-a:link {
-color: #FFF;
-}
-a:visited {
-color: #989FAF;
-}
-a:hover {
-color: #989FAF;
-font-size:24px;
-}
-a:active {
-color: #989FAF;
-}
 
 
 
