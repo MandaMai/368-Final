@@ -125,20 +125,33 @@ p {
 
 .featured{
 		background: url(../img/sub.png);
-		width: 72%;
+		padding: .05% 1.5%;
+		width: 70%;
 			margin-top: 3.8%;
 			color: #3d3d3d;
-			height: 250px;
-			/*max-height: 250px;*/
+			height: 248px;
+			/*max-height: 248px;*/
 }
 
 .featured h2{
-	padding-top: 1%;
+	
 	}
 
+.sub {
+	
+}
 
+.sub h2 {
+	
+}
 
+a{
+	font-size: 1.125em;	
+}
 
+.contactH{
+	color: #7f312d !important;
+}
 
 
 
