@@ -58,14 +58,17 @@ display: block;
 }
 
 #linkTextFb{
-	background: url(../img/facebook.png) no-repeat;	
+	background: url(../img/facebook.png) no-repeat;
 	display: block;
-	width: 100%px;
-	height: 100%px;
+	width: 25%;
+	height: 100%;
 	overflow: hidden;
 	text-indent: 100%;
 	white-space: nowrap;
+	float: right; 
 }
+
+
 
 #linkTextT{
 	background: url(../img/twitter.png) no-repeat;	
@@ -112,6 +115,7 @@ section li a{
 h2 {
 	font-weight: 700;
 	font-size:24px;	
+
 }
 
 p {
@@ -123,12 +127,13 @@ p {
 		background: url(../img/sub.png);
 		width: 72%;
 			margin-top: 3.8%;
+			color: #3d3d3d;
 			height: 250px;
 			/*max-height: 250px;*/
 }
 
 .featured h2{
-
+	padding-top: 1%;
 	}
 
 
