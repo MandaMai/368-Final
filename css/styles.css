@@ -6,6 +6,9 @@ body {
 	max-width: 960px;
 }
 
+ul{
+padding: 0;
+}
 
 .topSocial{
 font-size: 44px;
@@ -20,7 +23,10 @@ display: block;
 	display: block;
 	color: #3d3d3d;	
 	font-weight: 700;
-	width: 30%;
+	width: 26%;
+	position: relative;
+	z-index: 10;
+	margin-top: -.9%;
 }
 
 .rightNav li{
@@ -95,7 +101,7 @@ section li{
 	display: inline-block;
 	list-style: none;
 	text-align: center;
-	padding: 1% 0;
+	padding: 1.5% 0 1% 0;
 	font-size: 1.125em;
 }
 
@@ -127,7 +133,7 @@ p {
 		background: url(../img/sub.png);
 		padding: .05% 1.5%;
 		width: 70%;
-			margin-top: 3.8%;
+			margin-top: 2.9%;
 			color: #3d3d3d;
 			height: 248px;
 			/*max-height: 248px;*/
@@ -138,7 +144,30 @@ p {
 	}
 
 .sub {
-	
+	margin-top: 1%;
+	width: 33%;
+	float: left;
+			background: url(../img/sub.png);
+			color: #3d3d3d;		
+			padding: 0 1.5%;
+			height: 413px;
+	margin-right: 1%;
+			
+			/*max-height: 248px;*/
+}
+.sub2 {
+	margin-top: 1%;
+	width: 31%;
+	float: left;
+			background: url(../img/sub.png);
+			color: #3d3d3d;		
+			padding: 0 1.5%;
+			height: 410px;
+			margin-left: 3%;
+			position: relative;
+			z-index: 20;
+			
+			/*max-height: 248px;*/
 }
 
 .sub h2 {
