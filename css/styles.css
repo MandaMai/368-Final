@@ -387,11 +387,76 @@ nav li li li:last-child a {
 
 <!--general text formatting-->
 p {
+	font-size: 1.5em;
 }
 
 .intro {
-	font-size: 1.25em;
 	padding-right: 240px;
 	padding-top: 1%;
+	font-size: 1.5em;
 	}
 
+.notes {
+	margin-top: -400px;
+	margin-right: 40px;
+float: right;
+display: block;	
+width: 42%;
+font-size: 1.5em;
+}
+
+<!--Subpage Lists-->
+.title {
+color: red;	
+}
+
+
+ section h1{
+ color: #332424;
+ font-weight: 400;
+ font-size: 3em;
+float: left; 
+clear: both;
+ }
+
+section ul li a{
+	font-size: 1em;
+	color: #60859F;
+	text-decoration: none;
+	float: right;
+	clear: right;
+	display: block;
+		float: right;
+	clear: right;
+	text-align: left;
+	margin-right: 50px;
+}
+
+.last{
+margin-bottom: 3em;	
+}
+
+
+
+section ul {
+list-style: none;	
+font-size: 1em;
+}
+
+section ul li p {
+	color: #324553;	
+	margin-bottom: 0;
+	margin-top: 1em;
+	float: right;
+	clear: both;
+	text-align: left;
+	margin-right: 50px;
+}
+
+body >div:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;	
+}
