@@ -30,13 +30,14 @@ body {
 	height: 200px;
 	z-index: 20;
 }
-
+/*center of spinout*/
 .social {
 float: left;
 margin-right: 100px;	
 margin-bottom: 100px;
 }
 
+/*"branch" of social media spinout*/
 .leg {
 	width: 100px;
 	height: 200px;
@@ -60,11 +61,13 @@ margin-bottom: 100px;
         transform:translate3d(0,0,0);
 }
 
+/*beginning*/
 .social-main .facebook {
 	-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);
 	background: url(../img/social.png) no-repeat 0 0;
 }
 
+/*ending*/
 .social-main:hover .facebook {
 	-webkit-transform:rotate(-60deg);-ms-transform:rotate(-60deg);transform:rotate(-60deg);
 	opacity: 100;
@@ -72,11 +75,13 @@ margin-bottom: 100px;
 	-webkit-transition: opacity .5s ease-out, -webkit-transform .5s ease-out;
 }
 
+/*beginning*/
 .linkedin {
 	-webkit-transform:rotate(-60deg);-ms-transform:rotate(-60deg);transform:rotate(-60deg);
 	background: url(../img/social.png) no-repeat -100px 0;
 }
 
+/*ending*/
 .social-main:hover .linkedin {
 	-webkit-transform:rotate(-120deg);-ms-transform:rotate(-120deg);transform:rotate(-120deg);
 	opacity: 100;
@@ -84,11 +89,13 @@ margin-bottom: 100px;
 	-webkit-transition: opacity .5s ease-out .3s, -webkit-transform .5s ease-out .3s;
 }
 
+/*beginning*/
 .twitter {
 	-webkit-transform:rotate(-120deg);-ms-transform:rotate(-120deg);transform:rotate(-120deg);
 	background: url(../img/social.png) no-repeat -200px 0;
 }
 
+/*ending*/
 .social-main:hover .twitter {
 	-webkit-transform:rotate(-180deg);-ms-transform:rotate(-180deg);transform:rotate(-180deg);
 	opacity: 100;
@@ -96,11 +103,12 @@ margin-bottom: 100px;
 	-webkit-transition: opacity .5s ease-out .6s, -webkit-transform .5s ease-out .6s;
 }
 
+/*beginning*/
 .email {
 	-webkit-transform:rotate(-180deg);-ms-transform:rotate(-180deg);transform:rotate(-180deg);
 	background: url(../img/social.png) no-repeat -300px 0;
 }
-
+/*ending*/
 .social-main:hover .email {
 	-webkit-transform:rotate(-240deg);-ms-transform:rotate(-240deg);transform:rotate(-240deg);
 	opacity: 100;
@@ -108,25 +116,26 @@ margin-bottom: 100px;
 	-webkit-transition: opacity .5s ease-out .9s, -webkit-transform .5s ease-out .9s;
 }
 
-
+/*beginning*/
 .skype {
 	-webkit-transform:rotate(-240deg);-ms-transform:rotate(-240deg);transform:rotate(-240deg);
 	background: url(../img/social.png) no-repeat -400px 0;
 }
 
-
+/*ending*/
 .social-main:hover .skype {
 	-webkit-transform:rotate(-300deg);-ms-transform:rotate(-300deg);transform:rotate(-300deg);
 	opacity: 100;
 	transition: opacity .5s ease-out 1.2s, -ms-transform .5s ease-out 1.2s, transform .5s ease-out 1.2s;
 	-webkit-transition: opacity .5s ease-out 1.2s, -webkit-transform .5s ease-out 1.2s;
 }
-
+/*beginning*/
 .blogger {
 	-webkit-transform:rotate(-300deg);-ms-transform:rotate(-300deg);transform:rotate(-300deg);
 	background: url(../img/social.png) no-repeat -500px 0;
 }
 
+/*ending*/
 .social-main:hover .blogger {
 	-webkit-transform:rotate(-360deg);-ms-transform:rotate(-360deg);transform:rotate(-360deg);
 	opacity: 100;
@@ -134,6 +143,7 @@ margin-bottom: 100px;
 	-webkit-transition: opacity .5s ease-out 1.5s, -webkit-transform .5s ease-out 1.5s;
 }
 
+/*timing for transition*/
 .social-main .facebook, .social-main .linkedin, .social-main .twitter, .social-main .email, .social-main .skype, .social-main .blogger {
 	transition-property: opacity, -webkit-transform, -ms-transform, transform;
 	transition-duration: .2s, .2s, .2s, .2s;
@@ -144,7 +154,7 @@ margin-bottom: 100px;
 }
 /*end logo and social media formatting*/
 
-/*page Navigation*/
+/*page Navigation mechanics*/
 .complementary {
   float: right;
   width: 30%;
@@ -185,7 +195,7 @@ nav > ul > li > a {
 nav ul ul { 
   left: -9999em;
   position: absolute;
-  width: 100%;        /* the width of your drop downs */
+  width: 100%;        /* the width of drop downs */
   z-index: 2; 
 }
 
@@ -242,16 +252,7 @@ nav ul ul li:hover ul {
   top: 0;
 }
 
-/* ===================================================================
-
- _ _|  ____|      ____| _)                    
-   |   __|        |      | \ \  /   _ \   __| 
-   |   |          __|    |  `  <    __/ \__ \ 
- ___| _____|     _|     _|  _/\_\ \___| ____/     
-
-====================================================================*/
-
-/* Note: This hasn't even been tested yet because it is IE */
+/*IE Fixes from code, may not work for current ie*/
 
 #ie8 nav li { 
   display: inline; 
@@ -273,17 +274,8 @@ nav ul ul li:hover ul {
   display: block; 
 }
 
-/* ===================================================================
-
-   ___|   |           |             
- \___ \   __|  |   |  |   _ \   __| 
-       |  |    |   |  |   __/ \__ \ 
- _____/  \__| \__, | _| \___| ____/ 
-              ____/                      
-
-Nuke these babies if you need to style from scratch
-====================================================================*/
-
+/*Navigation styles*/
+/*nav = vertical and horizontal formatting as wanted them to be consistent throughout so didn't change colors */
 nav {
   background: #324553;
   background: -moz-linear-gradient(top, rgba(35, 48, 57,1) 0%, rgba(96, 133, 159,1) 100%);
@@ -390,12 +382,14 @@ p {
 	font-size: 1.5em;
 }
 
+/*Top center of home page*/
 .intro {
 	padding-right: 240px;
 	padding-top: 1%;
 	font-size: 1.5em;
 	}
 
+/*Middle right of home page*/
 .notes {
 	margin-top: -350px;
 	margin-right: 40px;
@@ -406,11 +400,7 @@ font-size: 1.5em;
 }
 
 <!--Subpage Lists-->
-.title {
-color: red;	
-}
-
-
+/*This is the main heading for each subpage located near the left and middle of the page underneath the social media logo*/
  section h1{
  color: #332424;
  font-weight: 700;
@@ -420,6 +410,7 @@ clear: both;
 margin-left: 50px;
  }
  
+ /*secondary heading used for differentiation between subjects on sub pages*/
   section h2{
  color: #32453;
  font-weight: 700;
@@ -429,6 +420,7 @@ clear: both;
 margin-left: 50px;
  }
 
+/*for links on resources page*/
 section ul li a{
 	font-size: 1em;
 	color: #60859F;
@@ -442,12 +434,13 @@ section ul li a{
 	margin-right: 50px;
 }
 
+/*larger gap than normal from the bottom of the page so it doesn't feel as cut off*/
 .last{
 margin-bottom: 3em;	
 }
 
 
-
+/*confirming text size for list*/
 section ul {
 list-style: none;	
 font-size: 1em;
@@ -463,6 +456,7 @@ section ul li p {
 	margin-right: 50px;
 }
 
+/*to fix issue with floats and background*/
 body >div:after {
 content: ".";
 display: block;
@@ -473,7 +467,7 @@ visibility: hidden;
 
 /*Recommendation*/
 
-/* Shelf (Works best in Webkit) */
+/* Shelf (Works best in Webkit per the person who wrote the original pen) */
 .shelf {
 	position: relative;
 	width: 960px;
@@ -694,7 +688,7 @@ visibility: hidden;
 					border-radius: 0 3px 3px 0;
 				}
 
-/* XBOX 360 */
+/*Books*/
 .case.xbox {
 	height: 203px;
 }
@@ -749,16 +743,11 @@ visibility: hidden;
 		left: -14px;
 	}
 	
-		.case.cd > div > .img > span {
-			background: transparent;
-		}
-		
-			.case.cd > div > .img > span > img {
-				border-radius: 0;
-			}
-			
-/*Recommendations*/
-
-.name {
-	
+.case.cd > div > .img > span {
+	background: transparent;
 }
+		
+.case.cd > div > .img > span > img {
+	border-radius: 0;	
+}
+	
